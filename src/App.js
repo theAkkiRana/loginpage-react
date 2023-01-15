@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import LoginForm from '../src/components/LoginForm/Login';
+import Header from '../src/components/Header/Header';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  './i18n';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className="mt-2 p-2">
+      <Header/>
+      <div className="container-fluid"></div>
+        <div className="ng-scope">
+            <div className="row">
+                <div className="col-lg-12">
+                    <div className="row">
+                        <div className="col-md-10 offset-md-1 p-4 mt-2 data-div">
+                          <LoginForm />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+      </div>
+  )
 }
 
 export default App;
