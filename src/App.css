@@ -34,6 +34,19 @@
   border: 1px solid transparent;
 }
 
+.demoForm {
+	width: 500px;
+	margin: auto;
+}
+
+.form-group, .btn-primary{
+	margin-top: 1em;
+}
+
+.input-error input{
+	border-color: red !important;
+}
+
 .panel-default>.panel-heading {
   border-color: #ddd;
   border-bottom: 1px solid #ddd;

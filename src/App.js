@@ -1,5 +1,4 @@
 import LoginForm from '../src/components/LoginForm/Login';
-import Header from '../src/components/Header/Header';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  './i18n';
@@ -7,7 +6,6 @@ import  './i18n';
 function App() {
   return (
     <div className="mt-2 p-2">
-      <Header/>
       <div className="container-fluid"></div>
         <div className="ng-scope">
             <div className="row">
