@@ -174,7 +174,7 @@ render () {
                     {this.showErrorMsg("password")}
                     </div>
                     
-                    <button type="submit" data-testid="submit-button" className="btn btn-primary" disabled={!this.state.formValid || this.serviceCallInProgressserviceCallInProgress}>Sign up</button>
+                    <button type="submit" data-testid="submit-button" className="btn btn-primary" disabled={!this.state.formValid || this.state.serviceCallInProgress}>Sign up</button>
                 </form>
             </div>
         </div>
