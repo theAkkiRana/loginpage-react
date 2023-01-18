@@ -34,8 +34,8 @@ then run\
 followed by\
 `npm start`
 
-the application will be available on \ 
-`localhost:3000` \
+the application will be available on\ 
+`localhost:3000` 
 
 # test cases
 not all scenarios were implemented successfully \
