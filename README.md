@@ -32,10 +32,10 @@ clone the code in local repo\
 then run\
 `npm install`\
 followed by\
-`npm start `\
+`npm start`
 
-the application will be available on\ 
-`localhost:3000`\
+the application will be available on \ 
+`localhost:3000` \
 
 # test cases
 not all scenarios were implemented successfully \
